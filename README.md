@@ -6,8 +6,10 @@ A small Windows desktop app for keeping Claude prompts, with gauges for your Cla
 - Copy a prompt with one click, export it as `.md`, or back everything up to JSON
 - **✦ Claude panel**: claude.ai docked next to your notes, with dropdowns for your chats and projects;
   **➤ Claude** pastes the current prompt straight in
-- **⌘ Claude Code panel** (if you have [Claude Code](https://claude.com/claude-code) installed): chat with
-  Claude Code in any project folder and pick up past chats from a dropdown
+- **💬 Chat** docked on the right of the home screen: switch between **Claude** (plain chat) and
+  **Claude Code** (works in a project folder), and pick the project and chat from dropdowns.
+  **⧉** pops it out into a small floating chat that stays on top (**Ctrl+Alt+Space**, or
+  Ctrl+Shift+Space if that's taken)
 - Fill in `{{variables}}` when copying, ★ favorites and #tags
 - 5-hour and weekly usage gauges (live from claude.ai or counted by hand), a 7-day usage chart and
   alerts at 80% / 95%
